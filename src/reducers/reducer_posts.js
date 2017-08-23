@@ -1,5 +1,5 @@
 import { FETCH_POSTS } from '../actions'; //nothing to mention since we import from index.js
-import _ from lodash;
+import _ from 'lodash';
 
 export default function (state = {}, action) {//default state to empty objectß
     switch (action.type) {
