@@ -1,1 +1,64 @@
-{"posts":[{"id":230042,"title":"Hi!","categories":"Computer, Friends","content":"Post about Friends"},{"id":230008,"title":null,"categories":null,"content":null},{"id":229980,"title":"test","categories":null,"content":"adsfasdf"},{"id":229977,"title":null,"categories":null,"content":null},{"id":229975,"title":null,"categories":null,"content":null},{"id":229971,"title":null,"categories":null,"content":null},{"id":229952,"title":"Sup!","categories":"React,Redux","content":"RJH Blog post content!"},{"id":229931,"title":null,"categories":null,"content":null},{"id":229930,"title":null,"categories":null,"content":null},{"id":229919,"title":"saran-001","categories":"categories-001","content":"content-001"}]}
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": "Java",
+            "categories": "Computer",
+            "content": "must read"
+        },
+        {
+            "id": 2,
+            "title": "RoR",
+            "categories": "Computer",
+            "content": "must read"
+        },
+        {
+            "id": 3,
+            "title": "Reactive Programming",
+            "categories": "Computer",
+            "content": "must read"
+        },
+        {
+            "id": 4,
+            "title": "Raspberry Pi",
+            "categories": "Computer",
+            "content": "must read"
+        },
+        {
+            "id": 5,
+            "title": "Retrogaming",
+            "categories": "Computer",
+            "content": "must read"
+        },
+        {
+            "id": 6,
+            "title": "Bash",
+            "categories": "Computer",
+            "content": "must read"
+        },
+        {
+            "id": 7,
+            "title": "Sup!",
+            "categories": "React,Redux",
+            "content": "RJH Blog post content!"
+        },
+        {
+            "id": 8,
+            "title": "Node",
+            "categories": "Computer",
+            "content": "must read"
+        },
+        {
+            "id": 9,
+            "title": "Nginx",
+            "categories": "Computer",
+            "content": "must read"
+        },
+        {
+            "id": 10,
+            "title": "Apache",
+            "categories": "categories-001",
+            "content": "content-001"
+        }
+    ]
+}

@@ -11,6 +11,8 @@ class PostsIndex extends Component {
 
 
     renderPosts() {
+        //lodash map deal with objects
+        //mapStateToProps sets the posts in the this.props.posts
         return _.map(this.props.posts, post => {
             return (
                 <li className="list-group-item" key={post.id}>

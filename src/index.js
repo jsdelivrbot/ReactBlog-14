@@ -10,7 +10,7 @@ import PostsIndex from './components/posts_index';
 import PostsNew from './components/posts_new';
 
 const createStoreWithMiddleware = applyMiddleware(promise)(createStore);//apply it to middleware call
-
+//most specific route at top
 ReactDOM.render(
   <Provider store={createStoreWithMiddleware(reducers)}>
     <BrowserRouter>
@@ -23,3 +23,4 @@ ReactDOM.render(
     </BrowserRouter>
   </Provider>
   , document.querySelector('.container'));
+  
