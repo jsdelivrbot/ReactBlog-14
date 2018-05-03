@@ -7,7 +7,12 @@ class PostsNew extends Component {
             <div>
                 <input
                     type="text"
-                    {...field.input}//including all the event handlers
+                    {...field.input}//includes all the event handlers in on line
+
+                    //replaces 
+                    //onChange={field.input.onChange}
+                    //onFocus={field.input.onFocus}
+                    //...
                 />
             </div>
         )
@@ -24,6 +29,8 @@ class PostsNew extends Component {
     }
 }
 
+//similar to connect helper , allows us to talk to the redux store
+//allows the form to talk to the reduce
 export default reduxForm({//reduxForm is like the connect, ability to communicate from the form to the reduer
     form: 'PostsNewForm'//string must be unique, then not to share its state with other forms
 })(PostsNew);
