@@ -1,4 +1,4 @@
-import { FETCH_POSTS, FETCH_POST } from '../actions'; //nothing to mention since we import from index.js
+import { FETCH_POSTS, FETCH_POST , DELETE_POST} from '../actions'; //nothing to mention since we import from index.js
 import _ from 'lodash';
 
 export default function (state = {}, action) {//default state to empty object

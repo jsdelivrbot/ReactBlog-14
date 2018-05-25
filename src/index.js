@@ -17,11 +17,12 @@ ReactDOM.render(
     <BrowserRouter>
       <div>
         <Switch>
-        {/* /posts/new must be befores posts/:id order matters, 
+          {/* /posts/new must be befores posts/:id order matters, 
         first matching wins*/}
           <Route path="/posts/new" component={PostsNew} />
           <Route path="/posts/:id" component={PostsShow} />
           <Route path="/" component={PostsIndex} />
+
         </Switch>
       </div>
     </BrowserRouter>
